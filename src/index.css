@@ -1,3 +1,67 @@
+/* 
+Heading Color - #f9a87c
+Text Color - #db8f66
+Background Color - #28282b
+Highlight Color - #daf7a6 
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #28282b;
+  color: #db8f66;
+}
+
+.profile_img {
+  background: rgb(35, 253, 162) url("/public/profile.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.profile_img:hover {
+  background: url("/public/profile.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.project-1 {
+  background: rgb(42, 43, 43) url(/public/anilog_img.png);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.project-2 {
+  background: rgb(42, 43, 43) url(/public/pokedex_img.png);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.project-3 {
+  background: rgb(42, 43, 43) url(/public/goalsApp_img.png);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+.project-4 {
+  background: rgb(42, 43, 43) url(/public/project_4.png);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
