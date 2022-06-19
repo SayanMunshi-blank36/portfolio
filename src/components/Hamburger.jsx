@@ -5,7 +5,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
         hamburger ? "sm:-right-[0] -right-[0]" : "-right-[60rem]"
       } transition-all bg-[#28282b] shadow-2xl z-40 flex flex-col justify-center md:hidden`}
     >
-      <ul className="ml-4 sm:ml-16">
+      <ul className="flex flex-col items-center justify-center sm:ml-16">
         {/* <a href="#home">
           <li
             onClick={(e) => {
