@@ -15,7 +15,7 @@ const Header = () => {
         with great user experience. I like to write clean and elegant code.
       </p>
       <a
-        href="http://localhost:3000/SayanResume.pdf"
+        href="https://sayanmunshi.netlify.app/SayanResume.pdf"
         target="_blank"
         rel="noreferrer"
       >
