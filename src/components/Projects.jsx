@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 const Projects = () => {
   return (
     <div className="pt-[6rem] mt-16" id="projects">
-      <h2 className="text-[#f9a87c] lg:text-5xl font-extrabold text-2xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6]">
+      <h2 className="text-[#f9a87c] lg:text-5xl font-extrabold text-3xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6]">
         Few Things I Built.
       </h2>
       <p className="mb-12 lg:text-xl">

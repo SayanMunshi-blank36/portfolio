@@ -8,7 +8,7 @@ const About = () => {
       id="about"
     >
       <div className="col-span-2">
-        <h2 className="text-[#f9a87c] font-extrabold text-2xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
+        <h2 className="text-[#f9a87c] font-extrabold text-3xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
           About Me.
         </h2>
         <p className="mb-4 lg:text-lg">

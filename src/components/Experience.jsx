@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Experience = () => {
   return (
     <div className="pt-[6rem]" id="experience">
-      <h2 className="text-[#f9a87c] font-extrabold text-2xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
+      <h2 className="text-[#f9a87c] font-extrabold text-3xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
         My Experience.
       </h2>
       <div className="md:grid grid-cols-2 gap-4">

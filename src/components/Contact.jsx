@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="pt-[6rem] mb-24" id="contact">
-      <h2 className="text-[#f9a87c] font-extrabold text-2xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
+      <h2 className="text-[#f9a87c] font-extrabold text-3xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6] lg:text-5xl">
         Get in Touch.
       </h2>
       <p className="text-center mb-8 lg:text-lg">
