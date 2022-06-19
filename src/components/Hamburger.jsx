@@ -11,7 +11,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             Home
           </li>
@@ -21,7 +21,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             About
           </li>
@@ -31,7 +31,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             Skills
           </li>
@@ -41,7 +41,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             Projects
           </li>
@@ -51,7 +51,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             Experience
           </li>
@@ -61,7 +61,7 @@ const Hamburger = ({ hamburger, setHamburger }) => {
             onClick={(e) => {
               setHamburger((prevVal) => !prevVal);
             }}
-            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 sm:text-2xl text-xl"
+            className="my-4 text-[#daf7a6] hover:border-[0.06rem] w-fit hover:border-[#daf7a6] p-4 text-3xl font-semibold"
           >
             Contact
           </li>
