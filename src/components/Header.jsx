@@ -1,11 +1,11 @@
 const Header = () => {
   return (
-    <div className="mt-24" id="home">
+    <div className="mt-32 md:mt-24" id="home">
       <p className="text-[#daf7a6] mb-2 lg:text-lg">Hi, I am</p>
-      <h1 className="text-[#f9a87c] font-black text-4xl mb-2 lg:text-7xl">
+      <h1 className="text-[#f9a87c] font-black text-5xl mb-2 lg:text-7xl">
         Sayan Munshi.
       </h1>
-      <h2 className="text-[#f9a87cb2] font-black text-3xl lg:text-6xl mb-8">
+      <h2 className="text-[#f9a87cb2] font-black text-4xl lg:text-6xl mb-12">
         I like to craft beautiful frontend for the Web.
       </h2>
       <p className="lg:text-2xl md:text-xl">

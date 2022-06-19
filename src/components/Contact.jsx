@@ -63,7 +63,11 @@ const Contact = () => {
               ></textarea>
             </div>
           </div>
-          <input type="hidden" name="_next" value="http://localhost:3000" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://sayanmunshi.netlify.app/#contact"
+          />
           <div className="p-2 w-full">
             <button
               type="submit"
