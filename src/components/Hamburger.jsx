@@ -2,8 +2,8 @@ const Hamburger = ({ hamburger, setHamburger }) => {
   return (
     <div
       className={`h-full w-full fixed top-0 ${
-        hamburger && "sm:-right-1/2 -right-1/2"
-      } -right-[60rem] transition-all bg-[#28282b] shadow-2xl z-40 flex flex-col justify-center md:hidden`}
+        hamburger ? "sm:-right-[0] -right-[0]" : "-right-[60rem]"
+      } transition-all bg-[#28282b] shadow-2xl z-40 flex flex-col justify-center md:hidden`}
     >
       <ul className="ml-4 sm:ml-16">
         {/* <a href="#home">
