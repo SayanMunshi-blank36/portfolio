@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -8,10 +9,20 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [showScroll, setShowScroll] = useState(false);
+
+  window.addEventListener("scroll", () => {
+    if (window.pageYOffset >= 80) {
+      setShowScroll(true);
+    } else {
+      setShowScroll(false);
+    }
+  });
+
   return (
-    <>
-      <Navbar />
-      <div className="w-11/12 mx-auto relative md:w-[45rem] lg:w-[60rem] ">
+    <div>
+      <Navbar showScroll={showScroll} />
+      <div className="w-11/12 mx-auto relative md:w-[45rem] lg:w-[60rem] xl:w-[65rem]">
         <Header />
         <About />
         <Skills />
@@ -20,7 +31,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaHamburger, FaTimes } from "react-icons/fa";
 import Hamburger from "./Hamburger";
 
-const Navbar = () => {
+const Navbar = ({ showScroll }) => {
   const [hamburger, setHamburger] = useState(false);
 
   const showHamburger = () => {
@@ -21,11 +21,11 @@ const Navbar = () => {
     <>
       <Hamburger hamburger={hamburger} setHamburger={setHamburger} />
       <nav
-        className={`w-full bg-[#28282b] fixed top-0 z-50 ${
-          !hamburger && "shadow-lg"
-        }`}
+        className={`w-full bg-[#28282b] ${
+          showScroll && "shadow-lg"
+        } z-50 fixed top-0 ${hamburger && "shadow-lg"}`}
       >
-        <div className="lg:w-[60rem] flex items-center justify-between my-4 mx-auto w-11/12">
+        <div className="lg:w-[60rem] xl:w-[65rem] flex items-center justify-between my-4 mx-auto w-11/12">
           <a href="/">
             <img
               src="/logo.png"
@@ -44,13 +44,13 @@ const Navbar = () => {
               onClick={showHamburger}
             />
           )}
-          <div className="hidden md:block md:w-2/3">
+          <div className="hidden md:block md:w-3/5">
             <ul className="flex items-center justify-between w-full">
-              <a href="#home">
+              {/* <a href="#home">
                 <li className="lg:text-lg text-[#daf7a6] cursor-pointer hover:scale-110 hover:text-[#b8f842] px-4 py-2 transition-all">
                   Home
                 </li>
-              </a>
+              </a> */}
               <a href="#about">
                 <li className="lg:text-lg text-[#daf7a6] cursor-pointer hover:scale-110 hover:text-[#b8f842] px-4 py-2 transition-all">
                   About
@@ -63,7 +63,7 @@ const Navbar = () => {
               </a>
               <a href="#projects">
                 <li className="lg:text-lg text-[#daf7a6] cursor-pointer hover:scale-110 hover:text-[#b8f842] px-4 py-2 transition-all">
-                  Project
+                  Projects
                 </li>
               </a>
               <a href="#experience">

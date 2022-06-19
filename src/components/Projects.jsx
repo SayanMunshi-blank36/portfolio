@@ -3,15 +3,15 @@ import { FiGithub } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <div className="my-24" id="projects">
+    <div className="pt-[6rem] mt-16" id="projects">
       <h2 className="text-[#f9a87c] lg:text-5xl font-extrabold text-2xl mb-6 border-b-[0.06rem] w-fit border-b-[#daf7a6]">
         Few Things I Built.
       </h2>
-      <p className="mb-12 lg:text-lg">
+      <p className="mb-12 lg:text-xl">
         A few of my projects are displayed below.
       </p>
-      <div>
-        <div className="h-fit mb-16 p-6 shadow-2xl rounded-md project-1 mx-auto">
+      <div className="md:grid grid-cols-3 gap-6 auto-rows-max justify-center">
+        <div className="h-fit md:h-auto mb-16 md:mb-0 p-6 shadow-2xl rounded-md project-1 mx-auto">
           <p className="bg-transparent text-sm text-[#daf7a6] mb-2">
             Featured Project
           </p>
@@ -33,14 +33,14 @@ const Projects = () => {
           <p className="font-semibold text-[#daf7a6] mb-3 bg-transparent">
             NextJs | Strapi | Tailwind CSS | Daisy UI
           </p>
-          <p className="flex bg-transparent">
+          <p className="flex bg-transparent mt-6">
             <a
               href="https://anime-fullstack-blog-frontend.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FaExternalLinkAlt className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FaExternalLinkAlt className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
             <a
               href="https://github.com/SayanMunshi-blank36/Anime_Blog_FullStack"
@@ -48,11 +48,11 @@ const Projects = () => {
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FiGithub className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FiGithub className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
           </p>
         </div>
-        <div className="h-fit mb-16 p-6 shadow-2xl rounded-md project-2 mx-auto">
+        <div className="h-fit md:h-auto mb-16 md:mb-0 p-6 shadow-2xl rounded-md project-2 mx-auto">
           <p className="bg-transparent text-sm text-[#daf7a6] mb-2">
             Featured Project
           </p>
@@ -73,14 +73,14 @@ const Projects = () => {
           <p className="font-semibold text-[#daf7a6] mb-3 bg-transparent">
             ReactJs | CSS | REST API
           </p>
-          <p className="flex bg-transparent">
+          <p className="flex bg-transparent mt-6">
             <a
               href="https://pokedex-by-blank.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FaExternalLinkAlt className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FaExternalLinkAlt className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
             <a
               href="https://github.com/SayanMunshi-blank36/PokeDex"
@@ -88,11 +88,11 @@ const Projects = () => {
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FiGithub className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FiGithub className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
           </p>
         </div>
-        <div className="h-fit mb-16 p-6 shadow-2xl rounded-md project-3 mx-auto">
+        <div className="h-fit md:h-auto mb-16 md:mb-0 p-6 shadow-2xl rounded-md project-3 mx-auto">
           <p className="bg-transparent text-sm text-[#daf7a6] mb-2">
             Featured Project
           </p>
@@ -115,14 +115,14 @@ const Projects = () => {
           <p className="font-semibold text-[#daf7a6] mb-3 bg-transparent">
             ReactJs | Node JS | Express JS | MongoDB | Redux
           </p>
-          <p className="flex bg-transparent">
+          <p className="flex bg-transparent mt-6">
             <a
               href="https://mernappsayan.herokuapp.com/login"
               target="_blank"
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FaExternalLinkAlt className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FaExternalLinkAlt className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
             <a
               href="https://github.com/SayanMunshi-blank36/GoalSetter"
@@ -130,11 +130,11 @@ const Projects = () => {
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FiGithub className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FiGithub className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
           </p>
         </div>
-        <div className="h-fit mb-16 p-6 shadow-2xl rounded-md project-4 mx-auto">
+        <div className="h-fit md:h-auto mb-16 md:mb-0 p-6 shadow-2xl rounded-md project-4 mx-auto">
           <p className="bg-transparent text-sm text-[#daf7a6] mb-2">
             Featured Project
           </p>
@@ -156,14 +156,14 @@ const Projects = () => {
           <p className="font-semibold text-[#daf7a6] mb-3 bg-transparent">
             NextJs | Strapi | Tailwind CSS | Daisy UI
           </p>
-          <p className="flex bg-transparent">
+          <p className="flex bg-transparent mt-6">
             <a
               href="https://sayan-munshi-blogs.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FaExternalLinkAlt className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FaExternalLinkAlt className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
             <a
               href="https://github.com/SayanMunshi-blank36/personal_blog"
@@ -171,7 +171,7 @@ const Projects = () => {
               rel="noreferrer"
               className="bg-transparent"
             >
-              <FiGithub className="mr-4 hover:text-[#daf7a6] bg-transparent" />
+              <FiGithub className="mr-4 lg:text-2xl hover:text-[#daf7a6] bg-transparent" />
             </a>
           </p>
         </div>
@@ -181,7 +181,7 @@ const Projects = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <button className="btn mb-16 rounded-md text-lg px-8 py-2 border-2 border-[#daf7a6] text-[#daf7a6] hover:scale-110 transition-all">
+        <button className="btn md:my-16 mb-16 rounded-md text-lg px-8 py-2 border-2 border-[#daf7a6] text-[#daf7a6] hover:scale-110 transition-all">
           View More
         </button>
       </a>

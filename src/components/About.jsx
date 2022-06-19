@@ -1,7 +1,10 @@
+import { FiGithub, FiInstagram, FiTwitter, FiLinkedin } from "react-icons/fi";
+import { FaEnvelope } from "react-icons/fa";
+
 const About = () => {
   return (
     <div
-      className="my-24 md:grid md:grid-cols-3 md:gap-4 items-center"
+      className="pt-[6rem] md:grid md:grid-cols-3 md:gap-4 items-center"
       id="about"
     >
       <div className="col-span-2">
@@ -44,7 +47,46 @@ const About = () => {
           .
         </p>
       </div>
-      <div className="profile_img w-60 h-60 rounded-lg border-4 hover:border-0 border-[#daf7a6] mx-auto my-8 transition-all col-span-1"></div>
+      <div>
+        <div className="profile_img w-60 h-60 rounded-lg border-4 hover:border-0 border-[#daf7a6] mx-auto my-12 transition-all col-span-1"></div>
+        <div className="flex items-center justify-center">
+          <a
+            href="https://github.com/SayanMunshi-blank36"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiGithub className="mx-4 text-xl lg:text-2xl hover:text-[#daf7a6] transition-all text-[#f9a87c]" />
+          </a>
+          <a
+            href="https://www.instagram.com/sayanmunshi36/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiInstagram className="mx-4 text-xl lg:text-2xl hover:text-[#daf7a6] transition-all text-[#f9a87c]" />
+          </a>
+          <a
+            href="https://twitter.com/blank_36"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiTwitter className="mx-4 text-xl lg:text-2xl hover:text-[#daf7a6] transition-all text-[#f9a87c]" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sayan-munshi-714a401b8/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiLinkedin className="mx-4 text-xl lg:text-2xl hover:text-[#daf7a6] transition-all text-[#f9a87c]" />
+          </a>
+          <a
+            href="mailto:sayanmunshi36@gmil.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaEnvelope className="mx-4 text-xl lg:text-2xl hover:text-[#daf7a6] transition-all text-[#f9a87c]" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

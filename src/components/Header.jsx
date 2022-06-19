@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="mb-24 mt-36 lg:mt-24" id="home">
+    <div className="mt-24" id="home">
       <p className="text-[#daf7a6] mb-2 lg:text-lg">Hi, I am</p>
       <h1 className="text-[#f9a87c] font-black text-4xl mb-2 lg:text-7xl">
         Sayan Munshi.
@@ -8,7 +8,7 @@ const Header = () => {
       <h2 className="text-[#f9a87cb2] font-black text-3xl lg:text-6xl mb-8">
         I like to craft beautiful frontend for the Web.
       </h2>
-      <p className="text-2xl">
+      <p className="lg:text-2xl md:text-xl">
         I am a design minded{" "}
         <span className="text-[#daf7a6]">Frontend Developer</span> based on
         Kolkata, India. I like building solid and scalable frontend products
