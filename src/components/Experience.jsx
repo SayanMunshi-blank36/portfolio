@@ -20,7 +20,7 @@ const Experience = () => {
             <li className="mb-6 text-sm">
               Built a Portfolio Website for the client.{" "}
               <a
-                href="https://susovan-jana-portfolio-test.netlify.app/"
+                href="https://susovanjana.github.io/"
                 target="_blank"
                 rel="noreferrer"
               >
